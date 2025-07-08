@@ -47,6 +47,8 @@ git clone https://github.com/muhammad-abdullah124/PayloadLab.git
 cd PayloadLab
 ```
 
+## 🧰 Setting Up a Virtual Environment (Recommended)
+
 ```bash
 python3 -m venv venv
 source venv/bin/activate            # For Linux/macOS
