@@ -59,8 +59,6 @@ pip install requests
 To launch PayloadLab via CLI:
 
 ```bash
-python cli.py --type xss --encode base64
-
 # Generate 5 random XSS payloads
 python3 main.py --xss
 
@@ -87,12 +85,6 @@ python3 main.py --xss --burp http://localhost:8080/test
 | `--mutate`    | Apply mutation techniques             |
 | `--encode`    | Encode the payload (e.g., `base64`)   |
 | `--output`    | Save output to a file                 |
-
-### Example:
-
-```bash
-python cli.py --type sqli --mutate --encode url
-```
 
 ---
 
