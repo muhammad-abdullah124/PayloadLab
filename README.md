@@ -45,6 +45,9 @@ PayloadLab/
 ```bash
 git clone https://github.com/muhammad-abdullah124/PayloadLab.git
 cd PayloadLab
+```
+
+```bash
 python3 -m venv venv
 source venv/bin/activate            # For Linux/macOS
 .\\venv\\Scripts\\Activate.ps1      # For Windows (PowerShell)
