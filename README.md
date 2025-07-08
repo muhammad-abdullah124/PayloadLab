@@ -60,6 +60,21 @@ To launch PayloadLab via CLI:
 
 ```bash
 python cli.py --type xss --encode base64
+
+# Generate 5 random XSS payloads
+python3 main.py --xss
+
+# Generate SQLi payloads with Unicode encoding
+python3 main.py --sqli --encode unicode
+
+# Generate WAF-mutation CMDi payloads and encode in base64
+python3 main.py --cmdi --mode waf --encode base64
+```
+
+## Send payloads to Burp or ZAP for testing:
+
+```bash
+python3 main.py --xss --burp http://localhost:8080/test
 ```
 
 ---
