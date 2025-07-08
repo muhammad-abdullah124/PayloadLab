@@ -58,6 +58,7 @@ pip install requests
 
 > ⚠️ Ensure you have Python 3.8+ installed.
 
+---
 
 ## 🚀 Usage
 
