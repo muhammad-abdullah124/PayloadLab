@@ -1,10 +1,12 @@
-# PayloadForge 🛠️
+# PayloadLab 🛠️
 
-**PayloadForge** is a modular payload generator designed to assist penetration testers and security researchers in generating customized web exploitation payloads for various attack vectors including:
+**PayloadLab** is a modular payload generator designed to assist penetration testers and security researchers in generating customized web exploitation payloads for various attack vectors including:
 
 - Command Injection (CMDi)
 - SQL Injection (SQLi)
 - Cross-Site Scripting (XSS)
+
+---
 
 ## 🔧 Features
 
@@ -14,10 +16,12 @@
 - CLI interface for ease of use.
 - Easily extensible and customizable.
 
+---
+
 ## 📁 Project Structure
 
 ```
-PayloadForge/
+PayloadLab/
 ├── cli.py                # CLI entry point
 ├── main.py               # Core logic and runner
 ├── modules/              # Exploit logic by attack type
@@ -34,11 +38,13 @@ PayloadForge/
 └── README.md             # Documentation
 ```
 
+---
+
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/yourusername/PayloadForge.git
-cd PayloadForge
+git clone https://github.com/muhammad-abdullah124/PayloadLab.git
+cd PayloadLab
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -48,11 +54,13 @@ pip install -r requirements.txt
 
 ## 🚀 Usage
 
-To launch PayloadForge via CLI:
+To launch PayloadLab via CLI:
 
 ```bash
 python cli.py --type xss --encode base64
 ```
+
+---
 
 ### Available Options:
 
@@ -69,9 +77,7 @@ python cli.py --type xss --encode base64
 python cli.py --type sqli --mutate --encode url
 ```
 
-## 🤝 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+---
 
 ## 📄 License
 
