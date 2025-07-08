@@ -48,7 +48,7 @@ cd PayloadLab
 python3 -m venv venv
 source venv/bin/activate            # For Linux/macOS
 .\\venv\\Scripts\\Activate.ps1      # For Windows (PowerShell)
-pip install -r requirements.txt
+pip install requests
 ```
 
 > ⚠️ Ensure you have Python 3.8+ installed.
